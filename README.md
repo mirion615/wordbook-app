@@ -1,24 +1,49 @@
-# README
+## usersテーブル
+| Column             | Type   | Options                   |
+| ------------------ | ------ | ------------------------- |
+| nickname           | string | null: false               |
+| email              | string | null: false, unique: true |
+| encrypted_password | string | null: false               |
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### Association
+- has_many : books
 
-* Ruby version
 
-* System dependencies
+## booksテーブル
+| Column             | Type       | Options           |
+| ------------------ | ---------- | ----------------- |
+| title              | string     | null: false       |
+| user_id            | references | foreign_key: true |
 
-* Configuration
+### Association
+- has_many    : book_words
+- has_many    : book_languages
+- belongs_to : user
 
-* Database creation
 
-* Database initialization
+## addressesテーブル
+| Column        | Type       | Options           |
+| ------------- | ---------- | ----------------- |
+| postal_code   | string     | null: false       |
+| ship_from_id  | integer    | null: false       |
+| city          | string     | null: false       |
+| house_number  | string     | null: false       |
+| building_name | string     |
+| phone_number  | string     | null: false       |
+| purchase      | references | foreign_key: true |
 
-* How to run the test suite
+### Association
+- belongs_to : purchase
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## purchasesテーブル
+| Column        | Type       | Options           |
+| ------------- | ---------- | ----------------- |
+| user          | references | foreign_key: true |
+| item          | references | foreign_key: true |
 
-* ...
+### Association
+- has_one    : address
+- belongs_to : user
+- belongs_to : item
