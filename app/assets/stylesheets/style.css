@@ -1,6 +1,9 @@
+
 * {
-  box-sizing: border-box;
-  font-family: Noto Sans, Helvetica Neue, Arial,s ans-serif!important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Noto Sans, Helvetica Neue, Arial, s ans-serif !important;
+
 }
 
 .top-page-header {
@@ -11,42 +14,56 @@
   font-size: 14px;
   color: #fff;
   border: none;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
 }
 
 .navbar {
   padding: 0 32px;
   height: 72px;
-
 }
 
 .navbar-header {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100%;
-  /* width: 63%; */
   position: relative;
-  flex-flow: row nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   margin: 0;
-  /* padding: 0; */
   margin-left: 30px;
-  /* font-size: 18px; */
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
   width: 100%;
   padding: 1vh 0;
 }
 
-/* .furima-icon {
-  width: 10vw;
-  margin-right: 10vw;
-} */
 
 .navbar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   min-width: 200px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
@@ -75,16 +92,22 @@
 
 .home {
   border-bottom: 1px solid #fff;
-  text-decoration: none;
 }
 
-.howtoplay {
-  text-decoration: none;
-} 
+.navbar-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-.startgame{
-  text-decoration: none;
-} 
+.user-nickname {
+  font-weight: bold;
+}
+
 
 .navbar-right {
   display: flex;
@@ -95,22 +118,4 @@
 
 .user-nickname {
   font-weight: bold;
-  text-decoration: none;
-
-}
-
-
-.logout {
-  text-decoration: none;
-
-}
-
-.login {
-  text-decoration: none;
-
-
-}
-
-.sign-up {
-  text-decoration: none;
 }
