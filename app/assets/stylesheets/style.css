@@ -1,0 +1,108 @@
+<<<<<<< Updated upstream
+=======
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Noto Sans, Helvetica Neue, Arial, s ans-serif !important;
+}
+
+.top-page-header {
+  width: 100vw;
+  max-width: 101.1%;
+  background-color: #000;
+  height: 100%;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar {
+  padding: 0 32px;
+  height: 72px;
+}
+
+.navbar-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  margin: 0;
+  margin-left: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 1vh 0;
+}
+
+.navbar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  margin-right: 32px;
+  float: left;
+  font-size: 19px;
+  height: 50px;
+  padding: 14.5px 15px;
+  line-height: 21px;
+}
+
+.header-link {
+  font-size: 18px;
+  padding: 0 2px 0 0;
+  margin-right: 25px;
+  letter-spacing: 1.8px;
+  vertical-align: sub;
+  border-bottom: 2px solid transparent;
+  color: white;
+  height: 50px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.home {
+  border-bottom: 1px solid #fff;
+}
+
+.navbar-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-nickname {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> Stashed changes
