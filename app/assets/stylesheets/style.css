@@ -109,14 +109,3 @@
   font-weight: bold;
 }
 
-
-.navbar-right {
-  display: flex;
-  min-width: 200px;
-  align-items: center;
-}
-
-
-.user-nickname {
-  font-weight: bold;
-}
