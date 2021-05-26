@@ -1,12 +1,9 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: Noto Sans, Helvetica Neue, Arial, s ans-serif !important;
+
 }
 
 .top-page-header {
@@ -17,6 +14,7 @@
   font-size: 14px;
   color: #fff;
   border: none;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,6 +22,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+
 }
 
 .navbar {
@@ -51,9 +50,11 @@
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+
   width: 100%;
   padding: 1vh 0;
 }
+
 
 .navbar-left {
   display: -webkit-box;
@@ -107,9 +108,4 @@
 .user-nickname {
   font-weight: bold;
 }
-<<<<<<< Updated upstream
-/*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes
-=======
-/*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes
+
