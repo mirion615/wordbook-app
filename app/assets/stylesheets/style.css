@@ -1,9 +1,7 @@
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: Noto Sans, Helvetica Neue, Arial, s ans-serif !important;
-
 }
 
 .top-page-header {
@@ -14,7 +12,6 @@
   font-size: 14px;
   color: #fff;
   border: none;
-
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,7 +19,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-
 }
 
 .navbar {
@@ -50,11 +46,9 @@
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-
   width: 100%;
   padding: 1vh 0;
 }
-
 
 .navbar-left {
   display: -webkit-box;
@@ -81,7 +75,7 @@
 .header-link {
   font-size: 18px;
   padding: 0 2px 0 0;
-  margin-right: 25px;
+  margin-right: 35px;
   letter-spacing: 1.8px;
   vertical-align: sub;
   border-bottom: 2px solid transparent;
@@ -108,4 +102,4 @@
 .user-nickname {
   font-weight: bold;
 }
-
+/*# sourceMappingURL=style.css.map */

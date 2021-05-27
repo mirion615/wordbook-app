@@ -1,7 +1,12 @@
 .top-image{
-  background-image: image-url('computer.png');
+  background-image: image-url('main-visual-nontitle.png');
   background-size: cover;
-  padding: 80px;
+  background-repeat: no-repeat;
+  padding: 60px 80px;
+}
+
+.top-container {
+  padding: 0 0 0 40px;
 }
 
 .top-title {
@@ -14,4 +19,33 @@
 .top-subtitle {
   font-size: 17px;
   text-align: left;
+  margin-bottom: 30px;
+}
+
+.top-btn {
+  display: flex;
+  & a{
+    margin-right: 20px;
+    color: #fff;
+    background-color: #eb6100;
+    border-radius: 100vh;
+    padding: 0.6rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.1em;
+    &:hover {
+      color: #fff;
+      background: #f56500;
+    }
+  }
+}
+
+.btn2 {
+  margin-right: 10px;
 }
