@@ -78,3 +78,21 @@
 .user-nickname {
   font-weight: bold;
 }
+
+.category {
+  color: #5c5c5c;
+  background-color: #f2f4f7!important;
+}
+
+.container {
+  margin: 0 40px;
+  padding: 20px 12px;
+  width: 100%;
+}
+
+.category-container {
+  padding-left: 40px;
+  & h1 {
+    font-size: 24px;
+  }
+}
